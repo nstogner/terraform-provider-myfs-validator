@@ -1,0 +1,5 @@
+terraform-provider-myfs
+terraform-provider-myfs-validator
+.terraform
+*.tfstate
+*.tfstate.backup
