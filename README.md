@@ -1,5 +1,7 @@
 # Example Terraform Provider (with Validations)
 
+This provider acts as a shim for the [terraform-provider-myfs](https://github.com/nstogner/terraform-provider-myfs) provider and adds a validation step before calling create/update on a resource.
+
 ```sh
 go build -o terraform-provider-myfs .
 terraform init
